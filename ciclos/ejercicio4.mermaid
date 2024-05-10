@@ -1,0 +1,8 @@
+flowchart TD
+    A[inicio] --> B{programa fizzbuzz}
+    B -->|fizz| C[multiplos de 3]
+    C --> D[buzz]
+    D --> F[multiplos de 5]
+    B -->|fizzbuzz| ambos
+    --> End
+    F --> End
