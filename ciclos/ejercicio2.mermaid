@@ -1,0 +1,6 @@
+flowchart TD
+    A[Start] --> B{adivinar numero}
+    B -- Yes --> C[adivinaste]
+    C --> D[felicidades]
+    D --> B
+    B -- No ----> E[no adivinaste, sigue intentando]
